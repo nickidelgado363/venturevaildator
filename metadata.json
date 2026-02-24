@@ -1,0 +1,5 @@
+{
+  "name": "VentureValidator",
+  "description": "An AI-powered Venture Capitalist assistant that analyzes business ideas to generate Lean PRDs, market research, SWOT analysis, and viability scores.",
+  "requestFramePermissions": []
+}
