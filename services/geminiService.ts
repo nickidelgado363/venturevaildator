@@ -1,6 +1,14 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult } from "../types";
 
+declare global {
+  interface ImportMeta {
+    env: {
+      VITE_API_KEY: string;
+    };
+  }
+}
+
 const SYSTEM_INSTRUCTION = `
 You are a world-class Venture Capitalist, Product Manager, and Market Analyst acting as a co-founder advisor. 
 Your goal is to take a raw business idea and rigorously analyze it. 
